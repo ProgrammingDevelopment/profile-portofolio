@@ -1,0 +1,140 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <title>Swandaru Tirta Sandhika</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Swandaru Tirta</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'm<span class="home__title-color"> Swandaru Tirta Sandhika</span><br>IT Specialist</h1>
+                    <a href="#" class="button">Hire me</a>
+                </div>
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/swandaru-tirta-sandhika" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/ProgrammingDevelopment" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="..."/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/prefil.gif"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/prefil1.jpg" alt="">
+                    </div>
+                    <div>
+                        <h2 class="about__subtitle">I'm Swandaru Tirta</h2>
+                        <p class="about_text">
+                            Dynamic and result-driven Information Technology Specialist with over 1 year of experience in IT systems and operations. 
+                            Proven track record in troubleshooting, data automation, and leading IT development projects. Skilled in programming 
+                            (Python, C++, Java, MYSQL), web development, AI/ML, and full-stack development. 
+                        </p>
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <div class="skills-container bd-grid">
+                    <div>
+                        <h2 class="skills__subtitle">Programming Skills</h2>
+                        <p class="skills__text">Here are the technologies I'm proficient with:</p>
+                        <ul class="skills__list">
+                            <li>Python, C++, Java, JavaScript, Kotlin, HTML, CSS, Vue.js</li>
+                            <li>MySQL, PL/SQL, MongoDB</li>
+                            <li>Git, GitHub, GitLab</li>
+                            <li>Power BI, Tableau, Microsoft Excel</li>
+                            <li>Cloud & DevOps: AWS, GCP, Heroku, BetterCMS</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== EXPERIENCE =====-->
+            <section class="experience section" id="experience">
+                <h2 class="section-title">Experience</h2>
+                <div class="experience__container bd-grid">
+                    <div class="experience__content">
+                        <h3>Head Of Division Development & Research</h3>
+                        <p>Himpunan Teknologi Informasi, Universitas Bina Sarana Informatika (UBSI) <br> 2023 – Present</p>
+                        <p>Leading technological innovations and research. Organized seminars on Google Development, streamlined website development, and fostered student involvement in research and technical projects.</p>
+                    </div>
+                    <div class="experience__content">
+                        <h3>IT Support and Data Analyst</h3>
+                        <p>Luxe Royale Inc., New York <br> January 2024 – September 2024</p>
+                        <p>Streamlined data entry processes and automated workflows using Python and C++. Resolved IT support issues and enhanced system uptime while optimizing data verification processes.</p>
+                    </div>
+                    <div class="experience__content">
+                        <h3>Private Tutor and Mentor</h3>
+                        <p>Self-Employed, Jakarta <br> November 2022 – Present</p>
+                        <p>Provided tailored IT tutoring sessions on topics like programming, data science, and web development. Designed personalized learning plans to match each student's learning style.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact__container bd-grid">
+                    <form action="mailto:swandarutirtasandhika1@gmail.com" method="POST" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input" name="name" required>
+                        <input type="email" placeholder="Email" class="contact__input" name="email" required>
+                        <textarea name="message" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="submit" value="Submit" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Contact me</p>
+            <div class="footer__social">
+              <a href="https://www.instagram.com/swandarutirtaa/profilecard/?igsh=MXhidnZwNmZwdzZ0bw==" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+              <a href="https://medium.com/@17231105" class="footer__icon"><i class='bx bxl-medium'></i></a>
+          </div>
+            <p class="footer__copy">&#169;Swannn All rights reserved</p>
+        </footer>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="./main.js"></script>
+    </body>
+</html>
