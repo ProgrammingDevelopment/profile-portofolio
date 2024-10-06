@@ -27,4 +27,4 @@ Formulir untuk pengunjung menghubungi Anda melalui email.
 ## Instalasi
 1. **Kloning repositori**:
    ```bash
-   git clone https://github.com/username/repo.git
+   git clone https://github.com/ProgrammingDevelopment/profile-portofolio.git
